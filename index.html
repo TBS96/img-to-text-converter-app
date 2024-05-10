@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image To Text Converter</title>
+
+    <!-- Tesseract.JS v5 Link -->
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+
+    <!-- Raw CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Image To Text Converter</h1>
+
+    <div class="input-and-btn-container">
+
+        <input type="file" id="imgInput" accept="image/*">
+        <!-- <button onclick="extractTexts()">Extract Texts</button> -->
+
+        <button onclick="extractTexts()" class="button">
+            <div class="lid">
+              <span class="side top"></span>
+              <span class="side front"></span>
+              <span class="side back"> </span>
+              <span class="side left"></span>
+              <span class="side right"></span>
+            </div>
+            <div class="panels">
+              <div class="panel-1">
+                <div class="panel-2">
+                  <div class="btn-trigger">
+                    <span class="btn-trigger-1"></span>
+                    <span class="btn-trigger-2"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+          
+
+    </div>
+
+    <div id="output"></div>
+    
+
+    <!-- Raw JS Link -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- Tesseract.JS is a JS library. -->
