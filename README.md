@@ -1,3 +1,5 @@
-# Image To Text Converter.
+# DOM Mini Project - 4
 
-## src is currently wip.
+``` bash
+Image to Text Converter using Tesseract.JS
+```
